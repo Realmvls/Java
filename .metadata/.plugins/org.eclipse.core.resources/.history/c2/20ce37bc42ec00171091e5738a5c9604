@@ -1,0 +1,13 @@
+package com.yunsi.tech.student;
+
+public class student {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

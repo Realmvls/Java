@@ -1,0 +1,14 @@
+
+	
+import com.yunsi.tech.student.student;
+
+public class test9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		student s = new student();
+		s.sayHello();
+	
+	}
+
+}
