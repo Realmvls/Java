@@ -1,0 +1,45 @@
+package com.nj.student;
+//车子
+class Vehicle{
+	void run(){
+		System.out.println("Vehicle在行驶");
+	}
+}
+//轿车
+class Car extends Vehicle{
+	int a;
+	void run(){
+		System.out.println("Car在行驶");
+	}
+	void doSth(){
+		System.out.println("Car dosth。。。属性a = "+a);
+	}
+}
+//
+class SUV extends Vehicle{
+	void run(){
+		System.out.println("SUV run ....");
+	}
+}
+//Bus
+class Bus extends Vehicle{}
+
+
+public class Test5 {
+	public static void main(String[] args){
+		Vehicle v = new Vehicle();
+		v.run();
+		Car c = new Car();
+		c.run();
+//		子类对象当作父类对象使用
+		v = c;
+		v.run();
+		
+//		v.a = 3;
+//		v.doSth();
+
+		Car cc = (Car)v;
+		cc.a = 10;
+		cc.doSth();
+	}
+}

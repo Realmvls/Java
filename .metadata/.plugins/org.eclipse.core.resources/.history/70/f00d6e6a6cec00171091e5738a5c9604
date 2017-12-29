@@ -8,7 +8,7 @@ class Student extends Person{
 class Worker{
 	String name;
 }
-public class test {
+public class Test {
 
 	/**
 	 * @param args
