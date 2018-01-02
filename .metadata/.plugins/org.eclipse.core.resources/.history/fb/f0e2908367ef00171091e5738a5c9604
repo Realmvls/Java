@@ -19,11 +19,12 @@ public class Test7 {
 	public static void test1()throws IOException{
 		Writer w = new FileWriter("D:\\javawebwork\\aaa.txt");
 		w.write('中');
-		w.write('国');                       
+		w.write('国');
 		w.write('a');
 		w.write('x');
 		w.close();
-		System.out.println("写文件完毕aaa.txt");}
+		System.out.println("写文件完毕aaa.txt");
+	}
 	
 	
 }

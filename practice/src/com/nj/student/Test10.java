@@ -1,0 +1,25 @@
+package com.nj.student;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Test10 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List t = new ArrayList();
+		for(int i=0;i<10;i++){
+			t.add(i);
+		}
+		for(int i=0;i<t.size();i++){
+			Object ele = t.get(i);
+			System.out.print(ele+"");
+		}
+		System.out.println();
+		
+	}
+
+}
