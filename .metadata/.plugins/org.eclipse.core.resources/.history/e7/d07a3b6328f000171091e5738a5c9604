@@ -1,0 +1,39 @@
+package app1;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class test1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JFrame f = new JFrame("ÑÝÊ¾JFrame");
+		int width = 500;
+		int height = 300;
+		int x = 100;
+		int y = 100;
+		f.setSize(width,height);
+		f.setLocationRelativeTo(null);
+		
+		JButton btn = new JButton("°´Å¥");
+		JButton btn2 = new JButton("°´Å¥2");
+		
+		btn.addActionListener(new MyActionListener());
+		
+		f.setLayout(new FlowLayout());
+		f.getContentPane().add(btn);
+		f.getContentPane().add(btn);
+		
+		f.setVisible(true);
+		
+//		TODO
+		
+		
+	}
+
+}
