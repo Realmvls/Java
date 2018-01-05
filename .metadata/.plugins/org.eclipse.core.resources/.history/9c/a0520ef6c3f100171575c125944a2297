@@ -114,7 +114,7 @@ class Pool extends JPanel
 			fish = fishs[i];
 			if (fish.contains(net.x, net.y)) 
 			{// 判断在不在网的范围
-				if((Math.random()*100)+1>=50){//捕鱼的概率
+				if((Math.random()*100)+1>=90){//捕鱼的概率
 				fish.getOut();
 				score += fish.width / 10;//加分
 			}}

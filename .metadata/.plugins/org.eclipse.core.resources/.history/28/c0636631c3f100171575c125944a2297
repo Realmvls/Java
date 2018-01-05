@@ -32,7 +32,7 @@ class Fish extends Thread //Ïß³Ì
 	}
 
 	public void run() {
-		if((Math.random()*100)+1>=50){
+		if((Math.random()*100)+1>=90){
            this.right();}
 	    else{
 	    	this.left();
